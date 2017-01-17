@@ -1,3 +1,2 @@
 # ElasticsearchManager
-a Elasticsearch manager tools,baseon Elsaticsearch5.1
-just for study elasticsearch
+a Elasticsearch manager tools, base on Elsaticsearch5.1 and curl, just for study elasticsearch.
