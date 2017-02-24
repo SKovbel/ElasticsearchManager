@@ -45,7 +45,7 @@ class CurlRequest implements CurlRequestInterface
         curl_setopt_array($this->ch, [
             CURLOPT_HEADER => 0,
             CURLOPT_RETURNTRANSFER => 1,
-            CURLOPT_CUSTOMREQUEST => 'put',
+            CURLOPT_CUSTOMREQUEST => 'PUT',
             CURLOPT_TIMEOUT => 20,
             CURLOPT_CONNECTTIMEOUT => 10,
         ]);
@@ -74,7 +74,7 @@ class CurlRequest implements CurlRequestInterface
         curl_setopt_array($this->ch, [
             CURLOPT_HEADER => 0,
             CURLOPT_RETURNTRANSFER => 1,
-            CURLOPT_CUSTOMREQUEST => 'post',
+            CURLOPT_CUSTOMREQUEST => 'POST',
             CURLOPT_TIMEOUT => 20,
             CURLOPT_CONNECTTIMEOUT => 10,
         ]);

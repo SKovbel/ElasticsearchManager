@@ -12,7 +12,7 @@ $api = '_cat/health?v&pretty';
 
 // 获取集群的节点列表
 $api = '_cat/nodes?v&pretty';
-// echo $curl->get($api);
+echo $curl->get($api);
 
 // 创建索引 - 有问题
 $api = 'users?pretty&pretty';
